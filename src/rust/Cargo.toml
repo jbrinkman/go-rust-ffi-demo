@@ -1,0 +1,12 @@
+[package]
+name = "pubsub_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "pubsub_core"
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+libc = "0.2"
+once_cell = "1.18"
